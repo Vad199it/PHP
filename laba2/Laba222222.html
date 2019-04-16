@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" >
+    <title>Фан клуб СТАСА МИХАЙЛОВА</title>
+    <link  rel="stylesheet" href="CSS/style_mp1.css">
+</head>
+<body>
+
+<header>
+    <header class ="lenta">
+        <p class="container">
+        <div class="heading clearfix">
+            <img src="image/stas_zaglav.jpg" alt="Фан Клуб" class ="stas_zaglav">
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="index.php">Главная</a>
+                    </li>
+                    <li>
+                        <a href="info.php">Новости</a>
+                    </li>
+                    <li>
+                        <a href="foto.php">Песни</a>
+                    </li>
+                    <li>
+                        <a href="songs.php">Картинки</a>
+                    </li>
+                    <li>
+                        <a href="fanats.php">Фанаты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</header>
+
+<section id ="phon">
+    <div class="container">
+        <?php
+
+		PrintArrayInTable($a);	// Вывод исходного массива
+		FormatArrayValues($a);	// Изменение значений по условию
+		PrintArrayInTable($a);	// Вывод форматированного массива
+
+	?>
+
+    </div>
+</section>
+
+<footer id= "phone">
+    <div class="container">
+        <p class="nadpic">
+            О Нас:<br>Заказывыть билеты по телефонам:<br>+375(29)5678936<br>+375(25)9812565
+        </p>
+        <h6>
+            Если позвоните сегодня скидка 30% на любые места!!!
+        </h6>
+    </div>
+</footer>
+</body>
+</html>

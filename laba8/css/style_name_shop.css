@@ -1,0 +1,33 @@
+.container_name{
+    height:325px;
+    background-image: url("../image/table.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tovary{
+    margin:0;
+    font-size: 30px;
+}
+
+.color{
+    background: rgba(255, 24, 145, 0.2);
+    height: 100px;
+}
+
+#train {
+    position: relative;
+    cursor: pointer;
+    height:100px;
+}
+
+#heart {
+    position: relative;
+    cursor: pointer;
+    height:100px;
+}
+
+.picture{
+    display: flex;
+}

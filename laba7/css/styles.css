@@ -1,0 +1,735 @@
+body {
+    color: #8f8f8f;
+    font: 12px Tahoma, sans-serif;
+	background-color: #f8f8f8;
+	background: url(../images/bg.png);
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+	height: 100%;
+}
+
+input[type="text"] {
+    background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+
+button {
+	color: #fff;
+	background-color: #29c5e6;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+
+button:hover {
+	color: #29c5e6;
+	background-color: rgb(228, 226, 226);
+}
+
+p {
+	margin: 20px 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: auto;
+	background: url(../images/bg.png);
+	min-height: 95%;
+}
+
+header {
+	padding: 20px 0 70px;
+}
+
+.logo {
+	background: url(../images/logo-0.png);
+	height: 50px;
+	width: 150px;
+	display: block;
+	float: left;
+}
+
+.logo:hover {
+	background: url(../images/logo-1.png); 
+}
+
+form[name="search"] {
+	float: right;
+	padding: 10px 0;
+}
+
+.main-images {
+	display: inline-block;
+    position: relative;
+	display: block;
+	margin: 0 0 5px;	
+}
+
+.main-images .caption {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 25px;
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+	text-align: center;
+	color: #fff;
+	font: 11px/16px Tahoma, sans-serif;
+	font-size: 20px;
+	line-height: normal;
+}
+
+.main-images:hover {
+	opacity: 0.97;
+}
+
+.main-images .caption:hover {
+	color:#29c5e6;
+}
+
+.main-images .caption.a {
+	color: #fff;
+	text-decoration: none;
+}
+.main-images .caption.a:hover {
+	color: #29c5e6;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #29c5e6;
+}
+
+nav ul {
+    background: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+.top-menu li {    
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.top-menu a {
+	color: #b4b1b1;
+}
+
+h1 {
+	display: inline-block;
+	color: #7e7e7e;
+	font: 40px/40px 'Oswald', sans-serif;
+	background: url(../images/bg.png);
+	margin: 0;
+	padding: 0 10px;
+}
+
+aside {
+	float: left;
+	width: 250px;
+}
+section {
+	padding-bottom: 50px;
+}
+
+.news-image {
+    display: inline-block;
+    position: relative;
+	display: block;
+	margin: 15px 10px 0 5px;	
+}
+
+.news-image .caption {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 25px;
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .5);
+	text-align: center;
+	color: #fff;
+	font: 11px/16px Tahoma, sans-serif;
+}
+
+.news-image:hover {
+	opacity: 0.9;
+}
+
+.news-image .caption:hover {
+	color:#29c5e6;
+}
+
+.news-image .caption.a {
+	color: #fff;
+	text-decoration: none;
+}
+.news-image .caption.a:hover {
+	color: #29c5e6;
+}
+
+.news-next-game {
+	margin: 20px 0;
+	background: #fff;
+	border: 1px solid rgb(192, 191, 191);
+}
+
+
+footer {
+	background: #7e7e7e;
+	color: #dbdbdb;
+	font-size: 11px;
+	margin-top: 3%;
+}
+
+.footer {
+	width: 960px;
+	max-width: 960px;
+	margin: auto;
+	padding: 10px 5px;
+	height: 100px;
+	position: relative;
+	bottom: 0;
+}
+
+footer h3 {
+	font: 14px 'Oswald', sans-serif;
+	color: #fff;
+	border-bottom: 1px solid #919191;
+	margin: 0 0 10px 0;
+}
+
+.twitter time a {
+	color: #b4aeae;
+}
+
+footer p {
+	margin: 5px 0;
+}
+
+.twitter {
+	float: left;
+	width: 300px;
+}
+
+.twitter p {
+	padding-right: 15px;
+}
+
+footer a {
+	color: #dbdbdb;
+}
+
+.sitemap {
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	padding-right: 15px;
+}
+
+.sitemap div {
+	display: inline-block;
+}
+
+.sitemap div + div {
+	margin-left: 20px;
+}
+
+.sitemap a {
+	display: block;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+
+.sitemap a:hover {
+	text-decoration: underline;
+	color: #29c5e6;
+}
+
+.social {
+	float: left;
+	margin-left: 20px;
+	width: 130px;
+}
+
+.social-icon {
+	width: 32px;
+	height: 32px;
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: 5px;
+}
+
+.twitter-logo {
+	background: url(../images/twitter-0.png) no-repeat;
+	height: 32px;
+	width: 32px;
+	display: block;
+}
+
+.twitter-logo:hover {
+	background: url(../images/twitter-0.png);
+}
+
+.facebook {
+	background: url(../images/facebook-0.png) no-repeat;
+	height: 32px;
+	width: 32px;
+	display: block;
+}
+
+.facebook:hover {
+	background: url(../images/facebook-0.png);
+}
+
+.youtube {
+	background: url(../images/youtube-0.png) no-repeat;
+	height: 32px;
+	width: 32px;
+	display: block;
+}
+
+.youtube:hover {
+	background: url(../images/youtube-0.png);
+}
+
+.instagram {
+	background: url(../images/instagram-0.png) no-repeat;
+	height: 32px;
+	width: 32px;
+	display: block;
+}
+
+.instagram:hover {
+	background: url(../images/instagram-0.png);
+}
+
+.footer-logo {
+	float: right;
+	margin-top: 20px;
+	font-size: 10px;
+	text-align: right;
+	margin-right: 10px;
+}
+
+.footer-logo a:hover {
+	color: #29c5e6;
+}
+
+.news-next-table {
+	border-collapse: separate;
+}
+
+.news-next-fixture {
+	color: black;
+	margin-left: 10px;
+	column-span: 2;
+}
+
+.news-next-date {
+	border-right:  1px solid rgb(114, 114, 114);
+	padding: 10px 30px;
+	font-size: 17px;
+}
+
+.news-text-team-0 {
+	height: 80px;
+	width: 80px;
+	padding-left: 100px;
+}
+.news-text-team-1 {
+	height: 80px;
+	width: 80px;
+	padding-left: 30px;
+}
+
+.news-text-team-img{
+	float: left;
+	margin-left: 40px;
+}
+
+.news-text-team-info{
+	float: left;
+	padding-top: 15px;
+}
+
+.news-text-team-name {
+	float: left;
+	margin-left: 150px;
+}
+
+.team-name {
+	color: rgb(51, 51, 51);
+	font-size: 15px;
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+.team-division {
+	font-size: 13px;
+	margin-top: 2px;
+}
+
+
+
+
+
+
+.squad-table {
+	border-spacing: 20px;
+}
+
+.squad-member:hover {
+	opacity: 0.9;
+}
+
+.squad-image {
+	height: 180px;
+	width: 150px;
+}
+
+.squad-image-caption {
+	background: #fff;
+}
+
+.squad-image-caption-main {
+	color: rgb(51, 51, 51);
+	font-size: 15px;
+	margin-bottom: 2px;
+	margin-top: 0px;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.squad-image-caption-minor {
+	font-size: 13px;
+	margin-top: 2px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+
+.calendar-competition {
+	background: rgb(236, 236, 236, 0.3);
+	border: 1px solid rgb(206, 206, 206);
+}
+
+.calendar-title {
+	text-align: center;
+	font-size: 15px;
+}
+
+.calendar-table {
+	width: 100%;
+	font-size: 15px;
+}
+
+.table-title {
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.table-rank {
+	font-weight: bold;
+	text-align: center;
+	color: black;
+}
+
+.table-pts {
+	text-align: center;
+}
+
+.table-stat {
+	text-align: center;
+}
+
+.table-team{
+	text-align: left;
+}
+
+.team {
+	text-align: left;
+}
+
+
+
+
+
+
+.news-image {
+	background: #e9e8e8;
+}
+
+.news-image-pic {
+	width: 100%;
+	height: 55%;
+}
+
+.news-image-caption {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 25px;
+	position: absolute;
+	z-index: 2;
+	left: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: left;
+	color: #fff;
+	font: 18px/16px Tahoma, sans-serif;
+}
+
+.news-wrapper {
+	background: #fafafa;
+	height: auto;
+	margin-bottom: 50%;
+	float: center;
+}
+
+.squad-image-caption-advertise {
+	background: rgba(235, 235, 235, 0.945);
+}
+
+.news-advert{
+	float: left;
+	height: 100%;
+	margin-top: 1%;
+	margin-right: 1%;
+}
+
+.news-match-info {
+	background: rgba(235, 235, 235, 0.9);
+	margin-left: 15%;
+	margin-right: 15%;
+	border: 1px solid rgb(216, 214, 214);
+}
+
+.news-match-caption {
+	text-align: center;
+}
+
+.news-score {
+	font-size: 50px;
+	margin-right: 5%;
+	color: rgb(146, 143, 143);
+}
+
+.news-match-image {
+	width: 40%;
+	height: 40%;
+}
+
+.news-match-table {
+	column-count: 2;
+	column-gap: 100px;
+}
+
+.first-team {
+	padding-left: 40%;
+}
+
+.second-team {
+	padding-right: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+.gallery {
+	position: relative;
+	padding-top: 50%;
+	-moz-user-select: none; user-select: none;
+}
+
+.gallery img {
+	position: absolute;
+	top: 25%;
+	left: 12.5%;
+	max-width: 24.5%;
+	max-height: 49.5%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	cursor: zoom-in;
+	transition: .2s;
+}
+
+.gallery img:nth-child(4n-2) {left: 37.5%;}
+.gallery img:nth-child(4n-1) {left: 62.5%;}
+.gallery img:nth-child(4n) {left: 87.5%;}
+.gallery img:nth-child(n+5) {top: 75%;}
+
+.gallery img:focus {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 1;
+	max-width: 100%;
+	max-height: 100%;
+	outline: none;
+	pointer-events: none;
+}
+
+.gallery img:focus ~ div {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #fff;
+	cursor: zoom-out;
+}
+
+
+
+
+
+
+
+.player-info-photo{
+	background: rgb(233, 233, 233);
+}
+
+.player-info {
+	text-align: left;
+	float: left;
+	margin-left: 20%;
+	margin-top: 10%;
+	color: black;
+}
+
+.player-info h1 {
+	background: rgb(233, 233, 233);
+	color: black;
+}
+
+.player-photo {
+	margin-left: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	width: 20%;
+	height: 30%;
+}
+
+.player-info-caption {
+	background: rgb(24, 99, 171, 0.85);
+	width: 100%;
+	color: white;
+}
+
+.player-table-text {
+	text-align: center;
+	color: rgb(206, 204, 204);
+	margin-left: 20px;
+}
+
+.player-table-text-info {
+	color: white;
+	text-align: center;
+	margin-left: 20px;
+}
+
+.player-text {
+	margin-top: 5%;
+}
+
+.player-text h2, h3 {
+	color: black;
+}
+
+.player-text p {
+	font-size: 15px;
+}
+
+.player-li-main {
+	font-size: 15px;
+	margin-top: 2%;
+}
+
+.player-li-minor {
+	font-size: 13px;
+	margin-top: 1%;
+	margin-left: 2%;
+}
+
+
+
+
+
+.history-text {
+	background: rgb(241, 240, 240);
+	margin-top: 1%;
+	padding-bottom: 3%;
+}
+
+.history-text h1 {
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	background: rgb(241, 240, 240);
+}
+
+.history-text h3 {
+	margin-left: 5%;
+}
+
+.history-text p {
+	margin-left: 3%;
+	margin-right: 1%;
+	font-size: 13px;
+}
+
+
+
+.trophies-h1 {
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+}
+
+.trophies-table-img {
+	width: 250px;
+	height: 150px;
+}
+
+.trophies-back {
+	background: #fff;
+	margin-top: 5%;
+	padding-bottom: 5%;
+}
+
+.trophies-back h1 {
+	background: #fff;
+}

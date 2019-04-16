@@ -1,0 +1,215 @@
+body {
+    font-family: Arial,sans-serif;
+    padding: 0;
+    margin:0;
+}
+
+.clearfix:after{
+    content:'';
+    display: table;
+    width: 100%;
+    clear:both;
+}
+
+.div{
+    box-sizing: border-box;
+}
+
+.textphone{
+    background: url(../image/Kraski_oboi.jpg) no-repeat center top / cover;
+    height: 600px;
+}
+
+.textphone h1{
+    margin:0;
+    padding-top: 200px;
+    color: aliceblue;
+    font-family: "Leelawadee UI Semilight";
+    font-size: 60px;
+}
+header{
+    background: url(../image/Kraski_oboi.jpg) no-repeat center top / cover;
+    height: 40px;
+}
+
+.container{
+    width:930px;
+    margin:0 auto;
+}
+.stas_zaglav{
+    height:40px;
+    margin:0;
+}
+.lenta{
+    background: url(../image/lenta.jpg) no-repeat center top / cover;
+    height: 40px;
+    width:930px;
+    margin:0 auto;
+}
+
+nav{
+    float:right;
+    margin-top:10px;
+}
+
+.menu{
+    padding: 0;
+    margin:0;
+    display:block;
+}
+
+.menu li{
+    float:left;
+    display:block;
+    margin-right: 80px;
+    font-size:18px;
+}
+
+.menu a{
+    color:brown;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.titles_first{
+   font-size:40px;
+   color:white;
+   text-transform:uppercase;
+   text-align: center;
+   margin-top:120px;
+}
+
+h1{
+    font-size:60px;
+   color:white;
+   text-transform:uppercase;
+   text-align: center;
+
+}
+
+.button{
+    background:#ebd2b1;
+    color:#654321;
+    text-decoration: none;
+    border-radius: 3px;
+    display:block;
+    width:200px;
+    padding:20px 0;
+    margin: 0 auto;
+    text-align:center;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 15px;
+}
+
+.title{
+    padding-top:80px;
+}
+
+.title h2{
+    font-size:40px;
+    font-weight: bold;
+    text-align:center;
+    text-transform:uppercase;
+    color:#734222;
+    margin:0;
+}
+
+.title p{
+    color:#734222;
+    text-align:center;
+    font-size: 20px;
+    margin-top:5px;
+
+}
+
+.photo{
+    margin-top:40px;
+    
+}
+
+.photo_item{
+    width:270px;
+    float:left;
+    text-align:center;
+
+}
+
+.photo_item h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:#755c48;
+    font-weight: bold;
+    margin-left:50px;
+
+}
+
+.photo_item p{
+    color:#755c48;
+    font-size:20px;
+    line-height:1.55em;
+    margin-left:50px;
+}
+
+#phon{
+    background:#fff8dc;
+    padding-bottom: 40px;
+
+}
+
+.photo_item:last-child{
+    float: right;
+}
+
+.photo_item:nth-child(2){
+margin-left:60px;
+}
+
+.photo_item img{
+    height: 180px;
+    width:320px;
+    float:left;
+}
+
+
+.container h4{
+    font-size:25px;
+    text-align:center;
+    color:#755c48;
+    margin-top:30px;
+}
+
+#phone{
+    margin:0;
+    background:#8a6642;
+    padding-bottom:30px;
+    
+}
+
+.nadpic{
+    
+    text-transform:uppercase;
+    margin:0;
+   color: #fff8dc;
+   font-size:18px;
+   text-align:center;
+   padding-top: 20px;
+   line-height:1.58em;
+
+}
+
+.opis{
+    font-size: 14px;
+    margin-top: 30px;
+    color:#755c48;
+    font-weight: bold;
+}
+.container h6{
+    text-transform:uppercase;
+    margin:0;
+   color: #ff1706;
+   font-size:18px;
+   text-align:center;
+   padding-top: 20px;
+   line-height:1.58em;
+}
